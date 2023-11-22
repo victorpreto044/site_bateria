@@ -1,14 +1,14 @@
-root {
-  --cinza: #d2d2d2;
-  --vermelha: #ed102a;
-  --vermelha-escura: #0449f6;
+:root {
+  --cinza: #aaa;
+  --vermelha: #e93d50;
+  --vermelha-escura: #af303f;
   --branca: #fff;
-  --luz: rgb(170, 255, 0);
+  --luz: rgb(229, 255, 0);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #8adeff 0%,#0666d4 100%);
+  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,8 +23,8 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #f4dcdc 0%,#574f4f 100%);
-  box-shadow: 6px 8px 0 6px #b37f7f, 10px 10px 10px #4a0303;
+  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
   gap: 10px;
